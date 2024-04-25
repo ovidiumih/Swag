@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/LogiFutures.iml" filepath="$PROJECT_DIR$/LogiFutures.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SwagLab.iml" filepath="$PROJECT_DIR$/SwagLab.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ovidiu_learning/ovidiu_learning.iml" filepath="$PROJECT_DIR$/ovidiu_learning/ovidiu_learning.iml" />
     </modules>
   </component>
 </project>

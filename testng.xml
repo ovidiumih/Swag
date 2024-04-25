@@ -1,26 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
-<suite name="Google Test Suite">
 
-    <test name="Production Test">
-        <parameter name="url" value="https://www.google.com"/>
+<suite name="test">
+
+    <test name="FirstTest">
         <classes>
-            <class name="Tests.GoogleFunctionality">
+            <class name="Tests.SwagLab">
                 <methods>
-                    <include name="checkGoogleWithTestNG"/>
-                </methods>
-            </class>
-        </classes>
-    </test>
-
-
-    <test name="Staging Test">
-        <parameter name="url" value="https://www.stg-google.com"/>
-        <classes>
-            <class name="Tests.GoogleFunctionality">
-                <methods>
-                    <include name="checkGoogleWithTestNG"/>
+                    <include name="checkOrderPlacement"></include>
                 </methods>
             </class>
         </classes>

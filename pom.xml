@@ -24,6 +24,7 @@
 
     <modules>
         <module>Tests</module>
+        <module>ovidiu_learning</module>
     </modules>
 
     <dependencies>
